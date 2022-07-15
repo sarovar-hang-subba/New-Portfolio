@@ -1,0 +1,111 @@
+body {
+  font-family: "monospace", sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.font-primary {
+  color: #00abae;
+}
+.title-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+p {
+  font-size: 16px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+a.font-black {
+  color: #000 important;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.info .img img {
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  top: 15%;
+  border-radius: 50%;
+}
+.info .text {
+  padding-top: 12%;
+}
+.info .text p {
+  font-size: 2rem;
+}
+.info .text button {
+  background: #00abae;
+  border-radius: 6px;
+  width: 6%;
+  padding: 1%;
+  font-size: larger;
+}
+.about {
+  padding-top: 15%;
+
+  padding-bottom: 5%;
+}
+.about h1 {
+  font-size: 3rem;
+}
+.about .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.about .flex .text p {
+  font-size: 1rem;
+}
+.about .flex .text h4 {
+  font-size: 2rem;
+}
+
+.skills .flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skills .flex .images img {
+  width: 5rem;
+}
+.projects .box {
+  display: flex;
+  justify-content: space-between;
+}
+.projects .img img {
+  width: 35rem;
+}
+.projects .box .des button {
+  background: #00abae;
+  border-radius: 6px;
+  padding: 2%;
+}
+.foot {
+  padding-top: 5%;
+}
+
+.foot .text {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 2%;
+}
+.foot .img {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 2%;
+}
+.foot .img img {
+  width: 5rem;
+}
+.foot p {
+  text-align: center;
+}
