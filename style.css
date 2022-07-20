@@ -19,7 +19,7 @@ h2 {
   margin-bottom: 20px;
 }
 a.font-black {
-  color: #000 important;
+  color: #000;
 }
 .container {
   display: flex;
@@ -49,6 +49,7 @@ a.font-black {
   width: 8%;
   padding: 1%;
   font-size: larger;
+  border: none;
 }
 .about {
   padding-top: 15%;
@@ -108,4 +109,141 @@ a.font-black {
 }
 .foot p {
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  * {
+    font-size: 10px;
+  }
+  .font-primary {
+    font-size: 18px;
+  }
+  .nav-link {
+    color: black;
+    text-decoration: none;
+  }
+  .title-icon {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  .info .text p {
+    font-size: 1.5rem;
+  }
+  .info .img img {
+    position: absolute;
+    width: 35%;
+    left: 65%;
+    top: 11%;
+    border-radius: 50%;
+  }
+  .info .text button {
+    background: #00abae;
+    border-radius: 3px;
+    width: 20%;
+    padding: 2%;
+    font-size: 1rem;
+    border: none;
+  }
+  .about h1 {
+    font-size: 2rem;
+  }
+  .about .flex .text h4 {
+    font-size: 1.5rem;
+  }
+  .about .flex {
+    display: grid;
+  }
+  .skills .flex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .projects .box {
+    display: grid;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  .projects .box .des p {
+    font-size: 12px;
+  }
+  .projects .box .img img {
+    margin-top: 10px;
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  * {
+    font-size: 20px;
+  }
+  .font-primary {
+    font-size: 35px;
+  }
+  .nav-link {
+    color: black;
+    text-decoration: none;
+  }
+  .title-icon {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  .info .text p {
+    font-size: 1.5rem;
+  }
+  .info .img img {
+    position: absolute;
+    width: 35%;
+    left: 65%;
+    top: 11%;
+    border-radius: 50%;
+  }
+  .info .text button {
+    background: #00abae;
+    border-radius: 3px;
+    width: 20%;
+    padding: 2%;
+    font-size: 1rem;
+    border: none;
+  }
+  .about h1 {
+    font-size: 2rem;
+  }
+  .about .flex .text h4 {
+    font-size: 1.5rem;
+  }
+  .about .flex {
+    display: grid;
+  }
+  .skills .flex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .projects .box {
+    display: grid;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  .projects .box .des p {
+    font-size: 25px;
+  }
+  .projects .box .img img {
+    margin-top: 20px;
+    width: 35rem;
+  }
+  strong {
+    font-size: 30px;
+  }
+  .projects .box .des button {
+    background: #00abae;
+    border-radius: 6px;
+    padding: 10px;
+    width: 20%;
+  }
+  .foot .img img {
+    width: 4rem;
+  }
 }
